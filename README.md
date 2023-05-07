@@ -1,1 +1,1 @@
-# qxrules
+# rules
