@@ -521,6 +521,7 @@ HOST-SUFFIX,update.mobile.kugou.com, reject
 HOST-SUFFIX,youxi.kugou.com, reject
 HOST-SUFFIX,adserviceretry.kugou.com, reject
 HOST-SUFFIX,adserviceretry.kugou.cn, reject
+HOST-SUFFIX,adserviceretry.kglink.cn, reject
 HOST-SUFFIX,ads.service.kugou.com, reject
 HOST-SUFFIX,adsfile.bssdlbig.kugou.com, reject
 HOST-SUFFIX,log.stat.kugou.com, reject
