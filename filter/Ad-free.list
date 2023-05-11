@@ -1351,7 +1351,7 @@ HOST,apppv.zol.com.cn, reject
 HOST,pvnapp.zol.com.cn, reject
 # > 中国移动云盘
 HOST-SUFFIX, ad.mcloud.139.com reject
-HOST-SUFFIX, mcmm.caiyun.feixin.10086.cn:80 reject
+HOST-SUFFIX, mcmm.caiyun.feixin.10086.cn reject
 # > 中国联通
 HOST-SUFFIX, m1.ad.10010.com, reject
 # > 中国电信
