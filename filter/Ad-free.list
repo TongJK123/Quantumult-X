@@ -6,7 +6,7 @@
 # >>>>>>>>>>>>>>> ✅ 1 ✅ <<<<<<<<<<<<<<
 # > 交管12123
 #host, static.122.gov.cn, reject
-HOST,gab.122.gov.cn, reject
+HOST-SUFFIX, gab.122.gov.cn, reject
 HOST-SUFFIX, v3.fstats.xyz, reject
 HOST-SUFFIX, wss.haoyundmn.com, reject
 HOST-SUFFIX, new.xiongzhangad.com, reject
