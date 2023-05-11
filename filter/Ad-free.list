@@ -1,18 +1,3 @@
-#############################################
-# 分流作用：1️⃣针对部分APP开屏广告，应用内广告进行拦截，2️⃣决定所访问的域名/主机使用哪个地区节点
-# 重要提示：某些APP要清除缓存或者重新安装APP，拦截广告才会生效！
-# 项目地址：https://github.com/fmz200/wool_scripts/raw/main/QuantumultX/filter/fenliu.list
-# 交流群组：https://t.me/quguanggao
-# 更新时间：2023.04.27 20:50
-# 策略选择：reject
-#############################################
-# "reject"        策略返回 HTTP 状态码 404,不附带任何额外内容
-# "reject-200"    策略返回 HTTP 状态码 200,不附带任何额外内容
-# "reject-img"    策略返回 HTTP 状态码 200,同时附带 1px gif
-# "reject-dict"   策略返回 HTTP 状态码 200,同时附带一个空的 JSON 对象
-# "reject-array"  策略返回 HTTP 状态码 200,同时附带一个空的 JSON 数组
-#############################################
-
 
 # >>>>>>>>>>>>>>> ✅ 0 ✅ <<<<<<<<<<<<<<
 
@@ -535,6 +520,7 @@ HOST-SUFFIX,song.fanxing.kugou.com, reject
 HOST-SUFFIX,update.mobile.kugou.com, reject
 HOST-SUFFIX,youxi.kugou.com, reject
 HOST-SUFFIX,adserviceretry.kugou.com, reject
+HOST-SUFFIX,adserviceretry.kugou.cn, reject
 HOST-SUFFIX,ads.service.kugou.com, reject
 HOST-SUFFIX,adsfile.bssdlbig.kugou.com, reject
 HOST-SUFFIX,log.stat.kugou.com, reject
